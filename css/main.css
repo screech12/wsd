@@ -1,7 +1,11 @@
+/*Element selector (body, nav h1)*/
+/*mulit or group (h1, h2, p{color:blue;})*/
 /*.classname, section, common--- class="name"== .name{}*/
 /*id="name", header,nav one per page per attribute (#name) in css*/
 /*best to use color nam or hex value thru out the site. Hex value is better*/
 /*Color background by tag, example div{ background-color-red;} */
+/* In order to separate more than one list items ol li, ul li or p, <span>  tag is used to group inline-elements in a document. You can style it with CSS, or manipulate it with JavaScript. Example ol li span */
+
 
 p{
 	color: red;
