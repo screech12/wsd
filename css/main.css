@@ -1,3 +1,8 @@
+/*.classname, section, common--- class="name"== .name{}*/
+/*id="name", header,nav one per page per attribute (#name) in css*/
+/*best to use color nam or hex value thru out the site. Hex value is better*/
+/*Color background by tag, example div{ background-color-red;} */
+
 p{
 	color: red;
 }
