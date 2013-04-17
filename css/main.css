@@ -32,7 +32,15 @@ grey
 	margin: 0 auto;
 	background: #87d4f2;/*light blue*/
 }
- nav{}
+ nav# a:link{
+ }
+ nav# a:visited{
+ }
+ nav# a:hover{
+ }
+ nav# a:active{
+ }
+  
  h1, h2, h3, h4{
  }
  article{}
