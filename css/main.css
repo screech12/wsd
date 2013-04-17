@@ -19,6 +19,7 @@ lime
 turquoise
 999
 grey
+blk 			#333
 
 -------------------------------*/
 
@@ -32,6 +33,15 @@ grey
 	margin: 0 auto;
 	background: #87d4f2;/*light blue*/
 }
+/*horizontal menu */
+ nav#menu ul{
+	width:600px;
+	margin:0 auto;
+	list-style-type:none; 
+	padding:0;
+	overflow:hidden;
+}	
+
  nav# a:link{
  	color: #;
  }
@@ -44,7 +54,11 @@ grey
  nav# a:active{
  	color: #;
  }
- 
+ img{
+ 	border: 5px solid #333
+ 	float: left;
+ 	
+ }
   
  h1, h2, h3, h4{
  }
