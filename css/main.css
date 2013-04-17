@@ -7,6 +7,10 @@
 /* In order to separate more than one list items ol li, ul li or p, <span>  tag is used to group inline-elements in a document. You can style it with CSS, or manipulate it with JavaScript. Example ol li span */
 
 
-p{
-	color: red;
-}
+ header{}
+ body{}
+ nav{}
+ h1, h2, h3, h4, {}
+ article{}
+ aside{}
+ footer{}
