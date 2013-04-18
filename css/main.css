@@ -10,15 +10,16 @@ or manipulate it with JavaScript. Example ol li span */
 /*Color Swatch-----------------
 light blue      87d4f2
 				5174d5
+red				d0000d
 323232
 white fff
 red d0000d
-blue
-yellow
-lime
-turquoise
+blue			#0000FF
+yellow			#FFFF00
+lime			#00FF00
+turquoise		#40E0D0
 999
-grey
+grey			#D3D3D3
 blk 			#333
 
 -------------------------------*/
@@ -44,8 +45,7 @@ text-shadow: 200000px -25px 1px #111;
 	background: grey;
 	list-style-type:none; 
 	padding:0;
-	overflow:hidden;
-	
+	overflow:hidden;	
 }	
 nav#menu li{
 	width:200px;
@@ -61,20 +61,21 @@ nav#menu a{
 	line-height:30px;
 	text-align:center;
 /*used default color blue*/
-}
+ }
+ nav#menu a:visited{
+ 	color:blue;
+ 	  background:yellow;
 
+ }
+ nav#menu a:hover{
+ 	color:#fff;/*white*/
+	background:#d0000d;/*red*/
 
- nav# a:link{
- 	color: #;
  }
- nav# a:visited{
- 	color: #;
- }
- nav# a:hover{
- 	color: #;
- }
- nav# a:active{
- 	color: #;
+ nav#menu a:active{
+ 	color:#00FF00;
+ 	  background:#40E0D0;
+
  }
  img{
  	border: 5px solid #333
