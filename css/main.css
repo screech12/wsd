@@ -45,14 +45,22 @@ text-shadow: 200000px -25px 1px #111;
 	list-style-type:none; 
 	padding:0;
 	overflow:hidden;
+	
 }	
 nav#menu li{
 	width:200px;
 	text-align:left;
-	 float:left; 
+	float: left;
+	background: silver;
 }
 nav#menu a{
 	text-decoration:none;
+	background: #fff;
+	display: block;
+	height: 30px;
+	line-height:30px;
+	text-align:center;
+/*used default color blue*/
 }
 
 
