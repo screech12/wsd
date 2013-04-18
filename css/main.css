@@ -92,4 +92,9 @@ nav#menu a{
  }
  article{}
  aside{}
+ #par{
+ -moz-column-count:3;
+ -moz-column-gap: 25px
+ 
+ }
  footer{}
