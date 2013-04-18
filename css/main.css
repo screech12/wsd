@@ -33,6 +33,10 @@ blk 			#333
 	margin: 0 auto;
 	background: #87d4f2;/*light blue*/
 }
+h1{
+text-indent: -200000px;
+text-shadow: 200000px -25px 1px #111;
+}
 /*horizontal menu */
  nav#menu ul{
 	width:600px;
