@@ -9,7 +9,7 @@ tag is used to group inline-elements in a document. You can style it with CSS,
 or manipulate it with JavaScript. Example ol li span */
 /*Color Swatch-----------------
 light blue      87d4f2
-				5174d5
+Dark blue			5174d5
 red				d0000d
 323232
 white fff
@@ -23,8 +23,10 @@ grey			#D3D3D3
 blk 			#333
 
 -------------------------------*/
-
- header{}
+  
+ header{
+ background: #5174d5;
+ }
  body{
  	color: #323232;
 	font:100%/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
@@ -38,7 +40,7 @@ h1{
 text-indent: -200000px;
 text-shadow: 200000px -25px 1px #111;
 }
-/*horizontal menu */
+/*----------------horizontal menu------------------------------- */
  nav#menu ul{
 	width:600px;
 	margin:0 auto;
@@ -65,22 +67,19 @@ nav#menu a{
  nav#menu a:visited{
  	color:blue;
  	  background:yellow;
-
  }
  nav#menu a:hover{
  	color:#fff;/*white*/
 	background:#d0000d;/*red*/
-
  }
  nav#menu a:active{
  	color:#00FF00;
- 	  background:#40E0D0;
-
+ 	background:#40E0D0;
  }
+ 
  img{
- 	border: 5px solid #333
- 	float: left;
- 	
+ border: 5px solid #333;
+ float: left;
  }
   
  h1, h2, h3, h4{
