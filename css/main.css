@@ -37,6 +37,7 @@ blk 			#333
  nav#menu ul{
 	width:600px;
 	margin:0 auto;
+	background: grey;
 	list-style-type:none; 
 	padding:0;
 	overflow:hidden;
@@ -45,6 +46,10 @@ nav#menu li{
 	width:200px;
 	text-align:left;
 	 float:left; 
+}
+nav#menu a{
+	text-decoration:none;
+}
 
 
  nav# a:link{
