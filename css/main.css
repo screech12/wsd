@@ -41,6 +41,11 @@ blk 			#333
 	padding:0;
 	overflow:hidden;
 }	
+nav#menu li{
+	width:200px;
+	text-align:left;
+	 float:left; 
+
 
  nav# a:link{
  	color: #;
