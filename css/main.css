@@ -100,26 +100,26 @@ nav#menu a{
  	-moz-column-count:3;
 	 -moz-column-gap: 25px
  }
- #menu{
+ #main{
 	background:gray;
 }
 	
- ul#main_gallery{
+#main_gallery ul{
  	border: 1px dashed #fff;
- 	list-style-type: none;
+ 	/*list-style-type: none;
  	width:960px;	 
  	margin:20px auto;
  	overflow:hidden;
  	padding:5px;
  }
- li#main_gallery{
+ #main_gallery li{
  	float:left;
  	margin-left: 10px;
  }
- a#main_gallery{
+ #main_gallery a{
  	border: 10px solid #fff;
  	display: block;
  	height: 159px;
  	width: 212px;
- }
+ }*/
  footer{}
