@@ -98,20 +98,21 @@ nav#menu a{
  article{}
  #par{
  	-moz-column-count:3;
-	 -moz-column-gap: 25px
+	-moz-column-gap: 25px
  }
  #main{
 	background:gray;
 }
 	
-#main_gallery ul{
+main#main_gallery ul{
  	border: 1px dashed #fff;
- 	/*list-style-type: none;
- 	width:960px;	 
+ 	list-style-type: none;
+  	width:600px;	 
  	margin:20px auto;
  	overflow:hidden;
  	padding:5px;
  }
+ 
  #main_gallery li{
  	float:left;
  	margin-left: 10px;
@@ -121,5 +122,15 @@ nav#menu a{
  	display: block;
  	height: 159px;
  	width: 212px;
- }*/
+ 	outline: 0;
+ }
+ #main_gallery a:visited{
+ 	border-color: navy;
+ }
+ #main_gallery a:visited{
+ 	border-color: #f100;
+ }
+ #main_gallery a:visited{
+ 	border-color: #000;
+ }
  footer{}
