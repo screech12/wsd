@@ -25,7 +25,7 @@ blk 			#333
 -------------------------------*/
   
  header{
- background: #5174d5;
+ 
  }
  /* body or a id="wrapper*/
  body{
@@ -35,7 +35,7 @@ blk 			#333
 	line-height: 1.5;
 	width: 960px;
 	margin: 0 auto;
-	padding: 0 auto;
+	padding: 0; 
 	background: #87d4f2;/*light blue*/
 }
 h1{
@@ -46,7 +46,6 @@ text-shadow: 200000px -0px 1px #111;
  nav#menu ul{
 	width:600px;
 	margin:0 auto;
-	background: grey;
 	list-style-type:none; 
 	padding:0;
 	overflow:hidden;	
@@ -55,11 +54,9 @@ nav#menu li{
 	width:200px;
 	text-align:left;
 	float: left;
-	background: silver;
 }
 nav#menu a{
 	text-decoration:none;
-	background: #fff;
 	display: block;
 	height: 30px;
 	line-height:30px;
