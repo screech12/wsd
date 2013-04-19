@@ -100,4 +100,13 @@ nav#menu a{
  -moz-column-count:3;
  -moz-column-gap: 25px
  }
+ #main{
+	background:yellow;
+}
+ #main-gallery{
+ ul{
+ border: 1px dashed #fff;
+ list-style-type: none;
+ }
+ }
  footer{}
