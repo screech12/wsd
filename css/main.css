@@ -25,7 +25,7 @@ blk 			#333
 -------------------------------*/
   
  header{
- 
+ background: #5174d5;
  }
  /* body or a id="wrapper*/
  body{
@@ -79,6 +79,8 @@ nav#menu a{
  img#first{
  	border: 5px solid #333;
  	float: right;
+ 	width: 380px;
+ 	height: 253px;
  }
  .stop float{
 	clear: both;
@@ -103,11 +105,10 @@ nav#menu a{
  #main{
 	background:gray;
 }
-	
-main#main_gallery ul{
+	#main_gallery ul{
  	border: 1px dashed #fff;
  	list-style-type: none;
-  	width:600px;	 
+  	width:650px;	 
  	margin:20px auto;
  	overflow:hidden;
  	padding:5px;
@@ -115,7 +116,7 @@ main#main_gallery ul{
  
  #main_gallery li{
  	float:left;
- 	margin-left: 10px;
+ 	margin-left: 25px;
  }
  #main_gallery a{
  	border: 10px solid #fff;
@@ -128,9 +129,10 @@ main#main_gallery ul{
  	border-color: navy;
  }
  #main_gallery a:visited{
- 	border-color: #f100;
+ 	border-color: red;
  }
  #main_gallery a:visited{
  	border-color: #000;
  }
+ 
  footer{}
