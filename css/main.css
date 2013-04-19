@@ -27,6 +27,7 @@ blk 			#333
  header{
  background: #5174d5;
  }
+ /* body or a id="wrapper*/
  body{
  	color: #323232;
 	font:100%/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
@@ -34,11 +35,12 @@ blk 			#333
 	line-height: 1.5;
 	width: 960px;
 	margin: 0 auto;
+	padding: 0 auto;
 	background: #87d4f2;/*light blue*/
 }
 h1{
 text-indent: -200000px;
-text-shadow: 200000px -25px 1px #111;
+text-shadow: 200000px -0px 1px #111;
 }
 /*----------------horizontal menu------------------------------- */
  nav#menu ul{
@@ -66,7 +68,7 @@ nav#menu a{
  }
  nav#menu a:visited{
  	color:blue;
- 	  background:yellow;
+ 	background:yellow;
  }
  nav#menu a:hover{
  	color:#fff;/*white*/
@@ -79,22 +81,26 @@ nav#menu a{
  
  img#first{
  border: 5px solid #333;
- float: left;
+ float: right;
  }
-  .stop float{
-  	clear: both;
-  }
+.stop float{
+  clear: both;
+ }
   #aside{
-  	padding: 0px 0px 0px;
-  	margin: 5px;
+  background: red;
+  padding: 0px 0px 0px;
+  margin: 0px 20px;
   }
- h1, h2, h3, h4{
- }
+  p{
+  margin: 0px 20px;
+  }
+ h1, h2, h3, h4, h5, h6{
+ margin:0;
+ padding: 15px 20px 0px;
+  }
  article{}
- aside{}
  #par{
  -moz-column-count:3;
  -moz-column-gap: 25px
- 
  }
  footer{}
