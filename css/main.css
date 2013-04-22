@@ -44,14 +44,14 @@ text-shadow: 200000px -0px 1px #111;
 }
 /*----------------horizontal menu------------------------------- */
  nav#menu ul{
-	width:600px;
+	width:62.5%;/*600px/960px*/
 	margin:0 auto;
 	list-style-type:none; 
 	padding:0;
 	overflow:hidden;	
 }	
 nav#menu li{
-	width:200px;
+	width:20.0833333333333%;/*200px/960px*/
 	text-align:left;
 	float: left;
 }
@@ -75,11 +75,13 @@ nav#menu a{
  	color:#00FF00;
  	background:#40E0D0;
  }
+ {
  
+ }
  img#first{
  	border: 5px solid #333;
  	float: right;
- 	width: 380px;
+ 	width: 30.583333333333%;/*380px/960px*/
  	height: 253px;
  }
  .stop_float{
@@ -88,7 +90,7 @@ nav#menu a{
   #aside{
   	background: red;
   	padding: 0px 0px 0px;
-  	margin: 0px 20px;
+  	margin: 0px 20px 0px 0px
   }
   p{
   	margin: 0px 20px;
@@ -133,6 +135,9 @@ nav#menu a{
  }
  #main_gallery a:visited{
  	border-color: #000;
+ }
+ img{
+ 	max-width: 100%;
  }
  
  footer{}
