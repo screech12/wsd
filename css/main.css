@@ -9,16 +9,16 @@ tag is used to group inline-elements in a document. You can style it with CSS,
 or manipulate it with JavaScript. Example ol li span */
 /*Color Swatch-----------------
 light blue      87d4f2
-Dark blue			5174d5
+Dark blue		5174d5
 red				d0000d
 323232
-white fff
-red d0000d
+white 			fff
+red 			d0000d
 blue			#0000FF
 yellow			#FFFF00
 lime			#00FF00
 turquoise		#40E0D0
-999
+				999
 grey			#D3D3D3
 blk 			#333
 
@@ -125,11 +125,13 @@ nav#menu a{
  }
  #main{
 	background:gray;
+	overflow:hidden;
+	
 }
 	#main_gallery ul{
- 	border: 1px dashed #fff;
+ 	border: 1px dashed #fff; 
  	list-style-type: none;
-  	width:650px;	 
+  	width:600px;	 
  	margin:20px auto;
  	overflow:hidden;
  	padding:5px;
@@ -137,8 +139,10 @@ nav#menu a{
  
  #main_gallery li{
  	float:left;
- 	margin-left: 25px;
+ 	margin-left: 60px;
+ 	overflow:hidden;
  }
+ 
  #main_gallery a{
  	border: 10px solid #fff;
  	display: block;
@@ -149,12 +153,12 @@ nav#menu a{
  #main_gallery a:visited{
  	border-color: navy;
  }
- #main_gallery a:visited{
+ #main_gallery a:hover{
  	border-color: red;
  }
- #main_gallery a:visited{
+ #main_gallery a:active{
  	border-color: #000;
- }
+ } 
  img{
  	max-width: 100%;
  }
