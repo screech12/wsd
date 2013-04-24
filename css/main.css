@@ -126,6 +126,9 @@ nav#menu a{
   h4{
   background-color:rgba(0,0,255,0.10);
   }
+  h5{
+  font-family: 'Pacifico', cursive;
+  }
   h6{
   	font-weight: bold;
   }
