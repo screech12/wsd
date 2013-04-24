@@ -13,7 +13,6 @@ Dark blue		5174d5
 red				d0000d
 323232
 white 			fff
-red 			d0000d
 blue			#0000FF
 yellow			#FFFF00
 lime			#00FF00
@@ -135,7 +134,10 @@ nav#menu a{
  article{}
  #par{
  	-moz-column-count:3;
-	-moz-column-gap: 25px
+	-moz-column-gap: 25px;
+	background: #D3D3D3; /*grey*/
+	border:5px solid #d0000d;/*red*/
+	border-radius:10px;	
  }
  #main{
 	background:gray;
