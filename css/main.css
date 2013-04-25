@@ -114,17 +114,17 @@ nav#menu a{
   #aside{
   	background: #d0000d;
   	padding: 0px 0px 0px;
-  	margin: 0px 20px 0px 0px;
+  	margin: 0px 02.0833333333333% 0px 0px;/*20px/960px*/
   	width: 41.1666666666667%;/*400px/960px*/
   }
 
   p{
-  	margin: 0px 20px;
+  	margin: 0px 02.083333333333%/*20px/960px*/
   	 
   }
  h1, h2, h3, h4, h5, h6{
 	 margin:0;
-	 padding: 15px 20px 0px;
+	 padding: 15px 02.0833333333333% 0px;/*20px/960px*/
   }
   h4{
   background-color:rgba(0,0,255,0.10);
@@ -171,7 +171,7 @@ nav#menu a{
  	border-color: navy;
  }
  #main_gallery a:hover{
- 	border-color: red;
+ 	border-color: #d0000d;/*red*/
  }
  #main_gallery a:active{
  	border-color: #000;
