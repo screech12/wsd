@@ -8,18 +8,18 @@
 tag is used to group inline-elements in a document. You can style it with CSS, 
 or manipulate it with JavaScript. Example ol li span */
 /*Color Swatch-----------------
-light blue      87d4f2
-Dark blue		5174d5
-red				d0000d
-323232
-white 			fff
+light blue      #87d4f2
+Dark blue		#5174d5
+red				#d0000d				 
+white 			#fff
 blue			#0000FF
 yellow			#FFFF00
 lime			#00FF00
 turquoise		#40E0D0
-				999
+dark grey		#999
 grey			#D3D3D3
-blk 			#333
+grey/blk 			#333
+blue rgb		0, 0, 255, 0.5
 
 -------------------------------*/
   
@@ -86,23 +86,24 @@ nav#menu a{
  	width: 30.583333333333%;/*380px/960px*/
  	height: 253px;
  }
+ 
  /* =Media Queries
  ======================================================*/
  
  	/* Tablet Portrait size to standard 960 (devices and browsers)*/
- 	@media screen and(min-width:768px)and(max-width:959px){
+ 	@media screen and (min-width:768px) and (max-width:959px){
  		#wrapper{
  			background-color: #509cff;
  	}
  }
  /* Mobile Landscape Size to Tablet Portrait(devices and browsers)*/
- 	@media only screen and(min-width:480px)and(max-width:767px){
+ 	@media only screen and (min-width:480px) and (max-width:767px){
  		#wrapper{
- 			background-color: #ff7743cff;
+ 			background-color: #ff7743;
  	}
  }
  /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers)*/
- 	@media only screen and(max-width:479px){
+ 	@media only screen and (max-width:479px){
  		#wrapper{
  			background-color: #d593ff;
  	}
@@ -111,12 +112,15 @@ nav#menu a{
 	clear: both;
  }
   #aside{
-  	background: red;
+  	background: #d0000d;
   	padding: 0px 0px 0px;
-  	margin: 0px 20px 0px 0px
+  	margin: 0px 20px 0px 0px;
+  	width: 41.1666666666667%;/*400px/960px*/
   }
+
   p{
   	margin: 0px 20px;
+  	 
   }
  h1, h2, h3, h4, h5, h6{
 	 margin:0;
@@ -140,11 +144,10 @@ nav#menu a{
 	border-radius:10px;	
  }
  #main{
-	background:gray;
+	background:#999;
 	overflow:hidden;	
 }
- #main_gallery ul{
- 	border: 1px dashed #fff; 
+ #main_gallery ul{ 
  	list-style-type: none;
   	width:62.5%;/*600px/960px*/	 
  	margin:20px auto;
@@ -153,7 +156,7 @@ nav#menu a{
  }
  #main_gallery li{
  	float:left;
- 	margin-left: 45px;
+ 	margin-left: 4.6875%;/*45px/960px*/
  	overflow:hidden;
  }
  
@@ -161,7 +164,7 @@ nav#menu a{
  	border: 10px solid #fff;
  	display: block;
  	height: 159px;
- 	width: 212px;
+ 	width:  212px;/*212px/*600px*/
  	outline: 0;
  }
  #main_gallery a:visited{
@@ -179,5 +182,5 @@ nav#menu a{
  
  footer{clear:both;
 	margin-top:1em;
-	background:gray;
+	background:#999;
 }
