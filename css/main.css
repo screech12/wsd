@@ -177,6 +177,24 @@ nav#menu a{
  #main_gallery a:active{
  	border-color: #000;/*blk*/
  } 
+  /*----------------Table------------------------------- */
+  table{
+	border-collapse:collapse;
+ 	border:1px solid #000;
+ }
+	td{
+	 border:1px solid #000;
+	 padding: 0.3em;
+ }
+	th{
+	 text-align:left;
+	 background-color:#999;
+	 color: #fff;
+	 padding: 0.3em;
+ }
+
+
+
  /*----------------Footer------------------------------- */ 
  footer{clear:both;
 	margin-top:1em;
