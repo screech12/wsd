@@ -24,21 +24,17 @@ blue rgb		0, 0, 255, 0.5
 -------------------------------*/
   
   #wrapper{
-  	width:960px;
+  	width:100%;/*960px*/
 	margin: 0 auto;
-	background-color:rgba(0,0,255,0.5);
-	 
+	background-color:rgba(0,0,255,0.5);	 
   }
-
-  
-
  /* body or a id="wrapper*/
  body{
  	color: #323232;
 	font:100%/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
-	font-size:14px;
+	font-size:16px;
 	line-height: 1.5;
-	width: 960px;
+	max-width: 960px;
 	margin: 0 auto;
 	padding: 0; 
 	background: #87d4f2;/*light blue*/
@@ -83,10 +79,9 @@ nav#menu a{
  img#first{
  	border: 5px solid #333;
  	float: right;
- 	width: 30.583333333333%;/*380px/960px*/
- 	height: 253px;
- }
- 
+ 	width: 39.583333333333%;/*380px/960px*/
+ 	 
+ } 
  /* =Media Queries
  ======================================================*/
  
@@ -117,9 +112,9 @@ nav#menu a{
   	margin: 0px 02.0833333333333% 0px 0px;/*20px/960px*/
   	width: 41.1666666666667%;/*400px/960px*/
   }
-
   p{
-  	margin: 0px 02.083333333333%/*20px/960px*/
+  	margin: 0px 02.083333333333%;/*20px/960px*/
+  	 
   	 
   }
  h1, h2, h3, h4, h5, h6{
@@ -150,7 +145,7 @@ nav#menu a{
  #main_gallery ul{ 
  	list-style-type: none;
   	width:62.5%;/*600px/960px*/	 
- 	margin:20px auto;
+ 	margin:03.333333333333% auto;/*20px/600px*/
  	overflow:hidden;
  	padding:5px;
  }
@@ -158,13 +153,12 @@ nav#menu a{
  	float:left;
  	margin-left: 4.6875%;/*45px/960px*/
  	overflow:hidden;
- }
- 
+ } 
  #main_gallery a{
  	border: 10px solid #fff;
  	display: block;
  	height: 159px;
- 	width:  212px;/*212px/*600px*/
+ 	width: 212px;/*212px/*600px*/
  	outline: 0;
  }
  #main_gallery a:visited{
@@ -179,7 +173,6 @@ nav#menu a{
  img{
  	max-width: 100%;
  }
- 
  footer{clear:both;
 	margin-top:1em;
 	background:#999;
