@@ -76,6 +76,7 @@ nav#menu a{
  	color:#00FF00;
  	background:#40E0D0;
  }
+ /*----------------First Img on Page------------------------------- */
  img#first{
  	border: 5px solid #333;
  	float: right;
@@ -102,20 +103,25 @@ nav#menu a{
  			background-color: #d593ff;
  	}
  }
+ /*----------------Special request------------------------------- */
  .stop_float{
 	clear: both;
  }
+ img{
+ 	max-width: 100%;
+ }
+ /*----------------Aside------------------------------- */
   #aside{
   	background: #d0000d;
   	padding: 0px 0px 0px;
   	margin: 0px 02.0833333333333% 0px 0px;/*20px/960px*/
   	width: 41.1666666666667%;/*400px/960px*/
   }
+  /*----------------Paragraph Adjustments------------------------------- */
   p{
   	margin: 0px 02.083333333333%;/*20px/960px*/
-  	 
-  	 
-  }
+ }
+ /*----------------Header Adj------------------------------- */
  h1, h2, h3, h4, h5, h6{
 	 margin:0;
 	 padding: 15px 02.0833333333333% 0px;/*20px/960px*/
@@ -130,6 +136,7 @@ nav#menu a{
   	font-weight: bold;
   }
  article{}
+ /*----------------Three section Paragraph------------------------------- */
  #par{
  	-moz-column-count:3;
 	-moz-column-gap: 25px;
@@ -137,6 +144,7 @@ nav#menu a{
 	border:5px #d0000d solid; /*boarder value in px, thin, medium, or thick/*/ 
 	border-radius:  1.041666666667%; /*10px/960px*/
  }
+ /*----------------Main and Gallery------------------------------- */
  #main{
 	background:#999;
 	overflow:hidden;	
@@ -169,9 +177,7 @@ nav#menu a{
  #main_gallery a:active{
  	border-color: #000;/*blk*/
  } 
- img{
- 	max-width: 100%;
- }
+ /*----------------Footer------------------------------- */ 
  footer{clear:both;
 	margin-top:1em;
 	background:#999;
