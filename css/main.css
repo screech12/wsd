@@ -31,7 +31,7 @@ blue rgb		0, 0, 255, 0.5
   	background-color:rgba(0,0,255,0.5);	 
   }
  /* body or a id="wrapper*/
- body{
+  body{
  	color: #323232;
 	font:100%/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
 	font-size:16px;
@@ -87,7 +87,7 @@ nav#menu a{
  /* =Media Queries
  ======================================================*/
  
- 	/* Tablet Portrait size to standard 960 (devices and browsers)*/
+ /* Tablet Portrait size to standard 960 (devices and browsers)*/
  	@media screen and (min-width:768px) and (max-width:959px){
  		#wrapper{
  			background-color: #509cff;
@@ -103,6 +103,7 @@ nav#menu a{
  	@media only screen and (max-width:479px){
  		#wrapper{
  			background-color: #d593ff;
+ /* additional options img#first{display: none;}section, aside {float:none;}*/
  	}
  }
  /*----------------Special request------------------------------- */
@@ -179,29 +180,29 @@ nav#menu a{
  #main_gallery a:active{
  	border-color: #000;/*blk*/
  } 
-  /*----------------Table------------------------------- */
+/*----------------Table------------------------------- */
   table{
 	border-collapse:collapse;
  	border:1px solid #000;
  }
-	td{
-	 border:1px solid #000;
-	 padding: 0.3em;
+  td{
+	border:1px solid #000;
+	padding: 0.3em;
  }
-	th{
-	 text-align:left;
-	 background-color:#999;
-	 color: #fff;
-	 padding: 0.3em;
+  th{
+	text-align:left;
+	background-color:#999;
+	color: #fff;
+	padding: 0.3em;
  }
- .even_row{
+  .even_row{
  	background-color: silver;
  }
 
 
 
  /*----------------Footer------------------------------- */ 
- footer{clear:both;
+  footer{clear:both;
 	margin-top:1em;
 	background:#999;
 }
