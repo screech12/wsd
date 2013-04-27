@@ -24,9 +24,11 @@ blue rgb		0, 0, 255, 0.5
 -------------------------------*/
   
   #wrapper{
-  	width:100%;/*960px*/
-	margin: 0 auto;
-	background-color:rgba(0,0,255,0.5);	 
+  	width:90%;/*960px*/
+	margin: 0 auto;  
+  }
+  header{
+  	background-color:rgba(0,0,255,0.5);	 
   }
  /* body or a id="wrapper*/
  body{
@@ -165,7 +167,7 @@ nav#menu a{
  	border: 10px solid #fff;
  	display: block;
  	height: 159px;
- 	width: 50%;/*212px/*600px*/
+ 	width:  60%;/*212px/*600px/good*/
  	outline: 0;
  }
  #main_gallery a:visited{
