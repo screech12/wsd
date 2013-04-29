@@ -20,9 +20,7 @@ dark grey		#999
 grey			#D3D3D3
 grey/blk 			#333
 blue rgb		0, 0, 255, 0.5
-
--------------------------------*/
-  
+-------------------------------*/  
   #wrapper{
   	width:90%;/*960px*/
 	margin: 0 auto;  
@@ -145,7 +143,7 @@ nav#menu a{
 	-moz-column-gap: 25px;
 	background: #D3D3D3; /*grey*/
 	border:5px #d0000d solid; /*boarder value in px, thin, medium, or thick/*/ 
-	border-radius:  1.041666666667%; /*10px/960px*/
+	border-radius:1.041666666667%; /*10px/960px*/
  }
  /*----------------Main and Gallery------------------------------- */
  #main{
@@ -198,9 +196,6 @@ nav#menu a{
   .even_row{
  	background-color: silver;
  }
-
-
-
  /*----------------Footer------------------------------- */ 
   footer{clear:both;
 	margin-top:1em;
