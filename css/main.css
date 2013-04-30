@@ -76,34 +76,6 @@ nav#menu a{
  	color:#00FF00;
  	background:#40E0D0;
  }
- /*----------------First Img on Page------------------------------- */
- img#first{
- 	border: 5px solid #333;
- 	float: right;
- 	width: 39.583333333333%;/*380px/960px*/
- } 
- /* =Media Queries
- ======================================================*/
- 
- /* Tablet Portrait size to standard 960 (devices and browsers)*/
- 	@media screen and (min-width:768px) and (max-width:959px){
- 		#wrapper{
- 			background-color: #509cff;
- 	}
- }	
- /* Mobile Landscape Size to Tablet Portrait(devices and browsers)*/
- 	@media only screen and (min-width:480px) and (max-width:767px){
- 		#wrapper{
- 			background-color: #ff7743;
- 	} 
- }	
- /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers)*/
- 	@media only screen and (max-width:479px){
- 		#wrapper{
- 			background-color: #d593ff;
- /* additional options img#first{display: none;}section, aside {float:none;}*/
- 	}
- }
  /*----------------Special request------------------------------- */
  .stop_float{
 	clear: both;
@@ -204,3 +176,48 @@ input:focus{
 	margin-top:1em;
 	background:#999;
 }
+/*----------------First Img on Page------------------------------- */
+ img#first{
+ 	border: 5px solid #333;
+ 	float: right;
+ 	width: 39.583333333333%;/*380px/960px*/
+ } 
+ /* =Media Queries
+ ======================================================*/
+ 
+ /* Tablet Portrait size to standard 960 (devices and browsers)*/
+ 	@media screen and (min-width:768px) and (max-width:959px){
+ 		#wrapper{
+ 			background-color: #509cff;
+ 	}
+ }	
+ /* Mobile Landscape Size to Tablet Portrait(devices and browsers)*/
+ 	@media only screen and (min-width:480px) and (max-width:767px){
+ 		#wrapper{
+ 			background-color: #ff7743;
+ 	} 
+ 	#par {
+    -moz-column-count: 1;
+    -moz-column-gap: 0
+}
+img#first{
+float: none;
+}
+#main_gallery li
+	float: none;
+ 	}
+ 	 
+ /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers)*/
+ 	@media only screen and (max-width:479px){
+ 		#wrapper{
+ 			background-color: #d593ff;
+ /* additional options img#first{display: none;}section, aside {float:none;}*/
+ 	}
+ 	#par {
+    -moz-column-count: 1;
+    -moz-column-gap: 0
+}
+img#first{
+display: none;
+}
+ }
