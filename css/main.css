@@ -179,6 +179,9 @@ nav#menu a{
  	border-color: #000;/*blk*/
  } 
 /*----------------Table------------------------------- */
+input:focus{
+		background:red;
+	}
   table{
 	border-collapse:collapse;
  	border:1px solid #000;
