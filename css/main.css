@@ -151,9 +151,10 @@ nav#menu a{
  	border-color: #000;/*blk*/
  } 
 /*----------------Table------------------------------- */
-input:focus{
-		background:red;
-	}
+.table{
+	margin: 0 auto;
+	width: 52.083333333333%:/*500px/960px*/
+}
   table{
 	border-collapse:collapse;
  	border:1px solid #000;
@@ -170,6 +171,17 @@ input:focus{
  }
   .even_row{
  	background-color: silver;
+ }
+ /*------------------Form____________________________*/
+ input:focus{
+		background:red;
+	}
+ .form{
+ 	background-color: #d0000d;
+ 	width: 57.279166666667%;/*550px/960px*/
+ 	margin: 0 auto;
+ 	padding: 25px;
+ 	border: 10px solid #fff;
  }
  /*----------------Footer------------------------------- */ 
   footer{clear:both;
@@ -189,6 +201,15 @@ input:focus{
  	@media screen and (min-width:768px) and (max-width:959px){
  		#wrapper{
  			background-color: #509cff;
+ }
+ h1{
+  font-family: 'Pacifico', cursive;
+  }
+  footer{
+  font-family: 'Pacifico', cursive;
+  }
+  #main_gallery {
+			float: left;
  	}
  }	
  /* Mobile Landscape Size to Tablet Portrait(devices and browsers)*/
@@ -196,15 +217,19 @@ input:focus{
  		#wrapper{
  			background-color: #ff7743;
  	} 
- 	#par {
-    -moz-column-count: 1;
-    -moz-column-gap: 0
-}
-img#first{
-float: none;
-}
-#main_gallery li
-	float: none;
+ 		#par {
+    		-moz-column-count: 1;
+    		-moz-column-gap: 0
+	}
+		img#first{
+			float: none;
+	}
+		#main_gallery{
+			float: none;
+ 	}
+ 	footer{
+  font-family: 'Pacifico', cursive;
+  }
  	}
  	 
  /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers)*/
@@ -213,11 +238,15 @@ float: none;
  			background-color: #d593ff;
  /* additional options img#first{display: none;}section, aside {float:none;}*/
  	}
- 	#par {
-    -moz-column-count: 1;
-    -moz-column-gap: 0
+ 		#par {
+    		-moz-column-count: 1;
+    		-moz-column-gap: 0
 }
-img#first{
-display: none;
+		img#first{
+			display: none;
 }
- }
+footer{
+  font-family: 'Pacifico', cursive;
+  }
+}
+ 
