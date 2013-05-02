@@ -121,7 +121,7 @@ nav#menu a{
  #main{
 	background:#999;
 	overflow:hidden;	
-}
+ }
  #main_gallery ul{ 
  	list-style-type: none;
   	width:62.5%;/*600px/960px*/	 
@@ -153,8 +153,9 @@ nav#menu a{
 /*----------------Table------------------------------- */
 .table{
 	margin: 0 auto;
-	width: 52.083333333333%:/*500px/960px*/
-}
+	width: 52.083333333333%;/*500px/960px*/
+	margin: 0 auto;
+ }
   table{
 	border-collapse:collapse;
  	border:1px solid #000;
@@ -175,19 +176,19 @@ nav#menu a{
  /*------------------Form____________________________*/
  input:focus{
 		background:red;
-	}
+ }
  .form{
  	background-color: #d0000d;
  	width: 57.279166666667%;/*550px/960px*/
  	margin: 0 auto;
  	padding: 25px;
- 	border: 10px solid #fff;
+ 	border: 10px solid #fff;/*10px/550px*/
  }
  /*----------------Footer------------------------------- */ 
   footer{clear:both;
 	margin-top:1em;
 	background:#999;
-}
+ }
 /*----------------First Img on Page------------------------------- */
  img#first{
  	border: 5px solid #333;
@@ -202,51 +203,53 @@ nav#menu a{
  		#wrapper{
  			background-color: #509cff;
  }
- h1{
-  font-family: 'Pacifico', cursive;
-  }
-  footer{
-  font-family: 'Pacifico', cursive;
-  }
-  #main_gallery {
+		 h1{
+  			font-family: 'Pacifico', cursive;
+ }
+  		footer{
+  			font-family: 'Pacifico', cursive;
+ }
+  		#main_gallery {
 			float: left;
- 	}
+ }
  }	
  /* Mobile Landscape Size to Tablet Portrait(devices and browsers)*/
  	@media only screen and (min-width:480px) and (max-width:767px){
  		#wrapper{
  			background-color: #ff7743;
- 	} 
+ } 
  		#par {
     		-moz-column-count: 1;
     		-moz-column-gap: 0
-	}
+ }
 		img#first{
 			float: none;
-	}
+ }
 		#main_gallery{
 			float: none;
- 	}
- 	footer{
-  font-family: 'Pacifico', cursive;
-  }
- 	}
+ }
+ 		footer{
+  			font-family: 'Pacifico', cursive;
+ }
+ }
  	 
  /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers)*/
  	@media only screen and (max-width:479px){
  		#wrapper{
  			background-color: #d593ff;
  /* additional options img#first{display: none;}section, aside {float:none;}*/
- 	}
+ }
  		#par {
     		-moz-column-count: 1;
     		-moz-column-gap: 0
-}
+ }
 		img#first{
 			display: none;
-}
-footer{
+ }
+ }
+	footer{
   font-family: 'Pacifico', cursive;
-  }
-}
+ }
+ 
+ 
  
