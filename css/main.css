@@ -160,6 +160,7 @@ nav#menu a{
 .table{
 	margin: 0 auto;
 	width: 52.083333333333%;/*500px/960px*/
+	border:5px solid transparent
 	
  }
   table{
@@ -195,7 +196,6 @@ nav#menu a{
 	margin-top:1em;
 	background:#999;
  }
-
  /* =Media Queries
  ======================================================*/
  
@@ -212,6 +212,7 @@ nav#menu a{
  }
   		#main_gallery a{
 			float: none;
+			width: 90%;
  }
  }	
  /* Mobile Landscape Size to Tablet Portrait(devices and browsers)*/
@@ -228,14 +229,21 @@ nav#menu a{
  }
 		#main_gallery a{
 			float: none;
+			width: 90%;
  }
  		footer{
   			font-family: 'Pacifico', cursive;
  }
- img#first{
- 	border: 5px solid #fff;
- 	float: none;
+ 		img#first{
+ 			border: 5px solid #fff;
+ 			float: none;
  } 
+ 		textarea{
+ 			width: 100%;
+ }	
+ 		.table{
+ 			width: 90%;
+ }
  }
  	 
  /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers)*/
@@ -251,19 +259,26 @@ nav#menu a{
 		img#first{
 			display: none;
  }
- .form{
- 	background-color: #d0000d;
- 	width: 57.279166666667%;/*550px/960px*/ 
- 	padding: 25px;
- 	border: 5px solid #fff;/*10px/550px*/
+ 		#main_gallery a{
+			float: none;
+			width: 90%;
+			 
  }
- textarea{
- 		width: 100%;
+ 		.form{
+ 			background-color: #d0000d;
+ 			width: 80%; 
+ 			padding: 25px;
+ 			border: 5px solid #fff;/*10px/550px*/
  }
- 
+ 		textarea{
+ 			width: 100%;
+ }	
+ 		.table{
+ 			width: 90%;
  }
-	footer{
-  font-family: 'Pacifico', cursive;
+		footer{
+  			font-family: 'Pacifico', cursive;
+ }
  }
  
  
