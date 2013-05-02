@@ -210,9 +210,15 @@ nav#menu a{
   		footer{
   			font-family: 'Pacifico', cursive;
  }
+ 		#main_gallery{
+ 		float: left;
+ 			 
+ 			width: 100%;
+ 			
+ }
   		#main_gallery a{
-			float: none;
-			width: 90%;
+			 
+			width: 80%;
  }
  }	
  /* Mobile Landscape Size to Tablet Portrait(devices and browsers)*/
@@ -226,6 +232,9 @@ nav#menu a{
  }
 		img#first{
 			float: none;
+ }
+ 		#main_gallery{
+ 			margin-left: 35px;
  }
 		#main_gallery a{
 			float: none;
@@ -259,10 +268,11 @@ nav#menu a{
 		img#first{
 			display: none;
  }
+ 		#main_gallery{
+ 			margin-left: 35px;
+ }
  		#main_gallery a{
-			float: none;
 			width: 90%;
-			 
  }
  		.form{
  			background-color: #d0000d;
