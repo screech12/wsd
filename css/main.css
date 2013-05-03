@@ -211,15 +211,16 @@ nav#menu a{
   			font-family: 'Pacifico', cursive;
  }
  		#main_gallery{
- 		float: left;
- 			 
+ 		float: left;		 
  			width: 100%;
  			
  }
   		#main_gallery a{
-			 
 			width: 80%;
  }
+ 		#main_gallery li{
+ 			margin-left: 10px;
+ 		}
  }	
  /* Mobile Landscape Size to Tablet Portrait(devices and browsers)*/
  	@media only screen and (min-width:480px) and (max-width:767px){
